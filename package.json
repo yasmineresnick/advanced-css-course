@@ -1,0 +1,25 @@
+{
+  "name": "advanced-css-course",
+  "version": "1.0.0",
+  "description": "This repo contains starter files and the finished project files for all the projects contained in the course.",
+  "main": "index.js",
+  "dependencies": {
+    "install": "^0.13.0"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  },
+  "scripts": {
+    "compile:sass": "node-sass Natours/starter/sass/mainscss.scss Natours/starter/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasmineresnick/advanced-css-course"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yasmineresnick/advanced-css-course/issues"
+  },
+  "homepage": "https://github.com/yasmineresnick/advanced-css-course#readme"
+}
