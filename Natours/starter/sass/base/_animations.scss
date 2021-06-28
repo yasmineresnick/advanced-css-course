@@ -33,7 +33,17 @@
 		transform: translateY(-1rem);
 	}
 	100% {
-        opacity: 1;
+		opacity: 1;
 		transform: translateY(0);
+	}
+}
+
+@keyframes shine {
+	0% {
+		background-position: 0 50%;
+	}
+
+	100% {
+		background-position: 200% 50%;
 	}
 }
